@@ -64,7 +64,8 @@ mdlcfg -c
 
 ##Antenna Setup
 
-The PCB Antennas are labelled from 1 to 8. Some PCB antennas actually have two antennas on the PCB. 
+The PCB Antennas are labelled from 1 to 8. Some PCB antennas actually have two antennas on the PCB, so you will notice
+that there are more ports on the board than there are PCB antennas, but some antennas have more than 1 wire going to them.
 
 The PCB antennas functions are as follows:
 
