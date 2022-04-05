@@ -19,10 +19,14 @@ Do not put VN007+ fw on a 007 and vice versa.
 ## Super user password 
 
 The VN007 has a 'superuser' password (different from admin/admin) which enables extra features (IP Passthrough etc) 
+
 First you need to enable ADB on the modem. Log into the web admin GUI (usually http://192.168.0.1) and press F12 in chrome to open up the developer console. 
 Click on Network
 Click on any of the http.cgi requests and click 'Payload' 
 Make a note of the 'sessionId' 
+
+![image1](/img/sessionID.jpg)
+
 
 Click the console tab and paste in the following:
 ```
@@ -33,6 +37,8 @@ Press ENTER to send the command.
 A successful command will return: 
 
 ```'{success: true, cmd:237, message: ''} ```
+
+![image2](/img/adb-on.jpg)
 
 [Download an ADB client:](https://www.xda-developers.com/install-adb-windows-macos-linux/)
 
