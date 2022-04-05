@@ -1,5 +1,8 @@
 # China Unicom VN007/VN007+ stuff
 
+## Android app 
+[Unicom manager](/android)
+
 ## Firmware 
 
 NOTE: The VN007+ firmware starts with X21G. 
