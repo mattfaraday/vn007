@@ -62,4 +62,21 @@ mdlcfg -c
 ```
 
 
+##Antenna Setup
+
+The PCB Antennas are labelled from 1 to 8. Some PCB antennas actually have two antennas on the PCB. 
+
+The PCB antennas functions are as follows:
+
+1. 4G LTE Diversity
+2. 5G Div
+3. WiFi  
+4. 5G Main
+5. 4G Main 
+6. 5G Div
+7. WiFi
+8. 5G Main 
+
+If you want to modify the modem to take external antennae, you need IPEX4/MHF4 to SMA female cables. 
+[Like this](https://www.amazon.co.uk/gp/product/B07T977771)
 
