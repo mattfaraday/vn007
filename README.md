@@ -64,20 +64,40 @@ mdlcfg -c
 You can now login as superadmin/new_password 
 
 
-##Antenna Setup
+## Antenna Setup
 
-The PCB Antennas are labelled from 1 to 8. Some PCB antennas actually have two antennas on the PCB. 
+The PCB Antennas are labelled from 1 to 8. Some PCB antennas actually have two antennas on the PCB, so you will notice
+that there are more ports on the board than there are PCB antennas, but some antennas have more than 1 wire going to them.
 
 The PCB antennas functions are as follows:
 
-1. 4G LTE Diversity
-2. 5G Div
-3. WiFi  
-4. 5G Main
-5. 4G Main 
-6. 5G Div
-7. WiFi
-8. 5G Main 
+### VN007
+
+| PCB Antenna Number | Function | Antenna port on main board | 
+| ------------------ | -------- | -------------------------- |
+| 1 |  4G LTE Diversity | ANT 2 |
+| 2 |  5G Div (and 5.8GHz WiFi) | ANT 4 & 5G 2 | 
+| 3 |  2.4 GHz WiFi  | 2.4G 2 | 
+| 4 |  5G Main (5G NSA?) | ANT 6 | 
+| 5 |  4G Main | ANT 1 |
+| 6 |  5G Div (and 5.8GHz WiFi) | ANT 5 & 5G 1 | 
+| 7 |  2.4 GHz WiFi | 2.4G 1 | 
+| 8 |  5G Main (5G SA?) | ANT 3 |  
+
+### VN007+  (Note, guess work at the moment)
+
+| PCB Antenna Number | Function | Antenna port on main board | 
+| ------------------ | -------- | -------------------------- |
+| 1 | 4G LTE Diversity | ANT 7 |
+| 2 | 2.4 GHz WiFi | 2.4G-2 | 
+| 3 | 5G Main NSA | ANT 1 | 
+| 4 | 4G Main & 5GHz WiFi | 5G-2 & ANT 3 & ANT 6 |
+| 5 | dont know | ANT 5 | 
+| 6 | 2.4GHz WiFi & 5G DIV | 2.4G-1 & ANT 2 | 
+| 7 | 2.4GHz WiFi | ANT 4 | 
+| 8 | 5GHz WiFi | 5G-1 | 
+
+Antenna (external) Hack: Use ANT1, ANT6, ANT2, ANT3. Leave all the others connected to PCB antennas. 
 
 If you want to modify the modem to take external antennae, you need IPEX4/MHF4 to SMA female cables. 
 [Like this](https://www.amazon.co.uk/gp/product/B07T977771)
