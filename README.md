@@ -82,18 +82,18 @@ The PCB antennas functions are as follows:
 | 7 |  2.4 GHz WiFi | 2.4G 1 | 
 | 8 |  5G Main (5G SA?) | ANT 3 |  
 
-### VN007+
+### VN007+  (Note, guess work at the moment)
 
 | PCB Antenna Number | Function | Antenna port on main board | 
 | ------------------ | -------- | -------------------------- |
 | 1 | 4G LTE Diversity | ANT 7 |
 | 2 | 2.4 GHz WiFi | 2.4G-2 | 
-| 3 | dont know | ANT 1 | 
-| 4 | 5 GHz ( and 5.8GHz WiFi ) | 5G-2 & ANT 3 & ANT 6 |
+| 3 | 5G Main NSA | ANT 1 | 
+| 4 | 4G Main & 5GHz WiFi | 5G-2 & ANT 3 & ANT 6 |
 | 5 | dont know | ANT 5 | 
-| 6 | 2.4GHz WiFi & something else | 2.4G-1 & ANT 2 | 
+| 6 | 2.4GHz WiFi & 5G DIV | 2.4G-1 & ANT 2 | 
 | 7 | 2.4GHz WiFi | ANT 4 | 
-| 8 | 5G | 5G-1 | 
+| 8 | 5GHz WiFi | 5G-1 | 
 
 If you want to modify the modem to take external antennae, you need IPEX4/MHF4 to SMA female cables. 
 [Like this](https://www.amazon.co.uk/gp/product/B07T977771)
