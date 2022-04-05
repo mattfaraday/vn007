@@ -69,8 +69,9 @@ that there are more ports on the board than there are PCB antennas, but some ant
 
 The PCB antennas functions are as follows:
 
+
 | PCB Antenna Number | Function | Antenna port on main board | 
-| ------------------   --------   -------------------------- |
+| ------------------ | -------- | -------------------------- |
 | 1 |  4G LTE Diversity | ANT 2 |
 | 2 |  5G Div (and 5.8GHz WiFi) | ANT 4 & 5G 2 | 
 | 3 |  2.4 GHz WiFi  | 2.4G 2 | 
