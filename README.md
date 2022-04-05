@@ -49,7 +49,7 @@ This will echo a line such as:
 Where abc1234 will be the root password for the device. You can go ahead and log in to the web gui (http://192.168.0.1) as root / abc1234 (replace with the output from the command!)
 
 
-## The SYS_SUPER user 
+## The SYS_SUPER / superadmin user 
 
 Another user, as far as I can tell the only difference is this one lets you send AT commands direct to the modem. 
 You have to set this password. As above in the ADB console type : 
@@ -60,6 +60,8 @@ mdlcfg -f SYS_SUPER_LOGIN_PWD="NEW_PASSWORD_HERE"
 mdlcfg -a SYS_SUPER_LOGIN_PWD="NEW_PASSWORD_HERE"
 mdlcfg -c
 ```
+
+You can now login as superadmin/new_password 
 
 
 ##Antenna Setup
