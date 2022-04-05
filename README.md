@@ -92,7 +92,7 @@ The PCB antennas functions are as follows:
 | 4 | 5 GHz ( and 5.8GHz WiFi ) | 5G-2 & ANT 3 & ANT 6 |
 | 5 | dont know | ANT 5 | 
 | 6 | 2.4GHz WiFi & something else | 2.4G-1 & ANT 2 | 
-| 7 | dont know | ANT 4 | 
+| 7 | 2.4GHz WiFi | ANT 4 | 
 | 8 | 5G | 5G-1 | 
 
 If you want to modify the modem to take external antennae, you need IPEX4/MHF4 to SMA female cables. 
