@@ -74,6 +74,23 @@ mdlcfg -c
 
 You can now login as superadmin with the password you just set. 
 
+## Logo
+
+Want to remove the logo ? 
+
+```mount -o rw,remount / && rm /tzwww/images/logo_unicom_5g.png && touch /tzwww/images/logo_unicom```
+
+Note this permanently deletes it. 
+
+You can also replace the image, it has to be 166x65 pixels. Once you have saved it (as a PNG) use ADB push to upload 
+First, set the filesystem to read/write:
+
+```mount -o rw,remount /``` 
+
+then in ADB: 
+
+```adb push c:\myfile.png /tzwww/images/logo_unicom_5g.png```
+
 ## Antenna Setup
 
 The PCB Antennas are labelled from 1 to 8. Some PCB antennas actually have two antennas on the PCB, so you will notice
