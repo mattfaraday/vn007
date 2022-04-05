@@ -60,7 +60,9 @@ Where abc1234 will be the root password for the device. You can go ahead and log
 
 ## The SYS_SUPER / superadmin user 
 
-Another user, as far as I can tell the only difference is this one lets you send AT commands direct to the modem. 
+Be careful with this user! this is some kind of engineering/test account that gives access to things that can break your modem!
+This user unlocks many options not visible to any other user, such as VLANs, VPNs, test menus, more WiFi options etc. 
+
 You have to set this password. As above in the ADB console type : 
 ```
 mdlcfg -f SYS_WEB_SUPER_PWD_RULE="1"
@@ -70,8 +72,7 @@ mdlcfg -a SYS_SUPER_LOGIN_PWD="NEW_PASSWORD_HERE"
 mdlcfg -c
 ```
 
-You can now login as superadmin/new_password 
-
+You can now login as superadmin with the password you just set. 
 
 ## Antenna Setup
 
@@ -107,7 +108,3 @@ The PCB antennas functions are as follows:
 | 8 | 5GHz WiFi | 5G-1 | 
 
 Antenna (external) Hack: Use ANT1, ANT6, ANT2, ANT3. Leave all the others connected to PCB antennas. 
-
-If you want to modify the modem to take external antennae, you need IPEX4/MHF4 to SMA female cables. 
-[Like this](https://www.amazon.co.uk/gp/product/B07T977771)
-
