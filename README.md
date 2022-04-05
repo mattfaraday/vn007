@@ -82,7 +82,8 @@ Want to remove the logo ?
 
 Note this permanently deletes it. 
 
-You can also replace the image, it has to be 166x65 pixels. Once you have saved it (as a PNG) use ADB push to upload 
+You can also replace the image, it has to be 166x65 pixels. Once you have saved it (as a PNG) use ADB push to upload.
+
 First, set the filesystem to read/write:
 
 ```mount -o rw,remount /``` 
