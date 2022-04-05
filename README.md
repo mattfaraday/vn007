@@ -8,7 +8,10 @@ NOTE: The VN007+ firmware starts with X21G.
 Do not put VN007+ fw on a 007 and vice versa. 
 
 [vn007](/fw/007)
+
 [vn007plus](/fw/plus)
+
+[vn007plus with SMS feature (experimental)](/fw/plus/X21G_1.12.5_IDU_1810_UN2020C_20220222_VN007_1.15UP_update.bin)
 
 ## Super user password 
 
