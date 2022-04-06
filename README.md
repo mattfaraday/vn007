@@ -126,3 +126,7 @@ The PCB antennas functions are as follows:
 | 8 | 5GHz WiFi | 5G-1 | 
 
 Antenna (external) Hack: Use ANT1, ANT6, ANT2, ANT3. Leave all the others connected to PCB antennas. 
+
+You can also just connect up all of them....
+
+![likethis](/img/mod1.jpg)
