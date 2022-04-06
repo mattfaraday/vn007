@@ -78,7 +78,7 @@ You can now login as superadmin with the password you just set.
 
 Want to remove the logo ? 
 
-```mount -o rw,remount / && rm /tzwww/images/logo_unicom_5g.png && touch /tzwww/images/logo_unicom```
+```mount -o rw,remount / && rm /tzwww/images/logo_unicom_5g.png && touch /tzwww/images/logo_unicom_5g.png```
 
 Note this permanently deletes it. 
 
@@ -116,17 +116,17 @@ The PCB antennas functions are as follows:
 
 | PCB Antenna Number | Function | Antenna port on main board | 
 | ------------------ | -------- | -------------------------- |
-| 1 | 4G LTE Diversity | ANT 7 |
-| 2 | 2.4 GHz WiFi | 2.4G-2 | 
-| 3 | 5G Main NSA | ANT 1 | 
-| 4 | 4G Main & 5GHz WiFi | 5G-2 & ANT 3 & ANT 6 |
-| 5 | dont know | ANT 5 | 
-| 6 | 2.4GHz WiFi & 5G DIV | 2.4G-1 & ANT 2 | 
-| 7 | 2.4GHz WiFi | ANT 4 | 
+| 1 | ? | ANT 7 |
+| 2 | 2.4GHz WiFi | 2.4G-2 | 
+| 3 | 5G  | ANT 1 | 
+| 4 | 5G & 5GHz WiFi | 5G-2 & ANT 3 & ANT 6 |
+| 5 | ? | ANT 5 | 
+| 6 | 2.4GHz WiFi & ??? | 2.4G-1 & ANT 2 | 
+| 7 | ??? | ANT 4 | 
 | 8 | 5GHz WiFi | 5G-1 | 
 
 Antenna (external) Hack: Use ANT1, ANT6, ANT2, ANT3. Leave all the others connected to PCB antennas. 
 
-You can also just connect up all of them....
+Or, you can also just connect up all of them....
 
 ![likethis](/img/mod1.jpg)
