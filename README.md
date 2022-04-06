@@ -1,5 +1,12 @@
 # China Unicom VN007/VN007+ stuff
 
+## Disclaimer/Warning: 
+
+The stuff on this page can brick your modem if you don't follow it exactly. 
+You might even brick it all even if you do follow it perfectly. 
+But I am not responsible for what you do to your modem. 
+Have fun. 
+
 ## Android app 
 [Unicom manager](/android)
 
@@ -130,3 +137,13 @@ Antenna (external) Hack: Use ANT1, ANT6, ANT2, ANT3. Leave all the others connec
 Or, you can also just connect up all of them....
 
 ![likethis](/img/mod1.jpg)
+
+
+Required parts: 
+
+1. 2.5mm drill bit 
+2. 6.5mm drill bit
+3. Masking tape
+4. A template (I just drew circles in mspaint and printed it out)
+5. Drill
+6. 9 x U.FL to SMA cable (1.13mm IPEX connector) [like this](https://www.amazon.co.uk/gp/product/B0931T2SKZ)
