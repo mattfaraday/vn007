@@ -149,3 +149,18 @@ Required parts:
 4. A template (I just drew circles in mspaint and printed it out)
 5. Drill
 6. 9 x U.FL to SMA cable (1.13mm IPEX connector) [like this](https://www.amazon.co.uk/gp/product/B0931T2SKZ)
+
+Technique: 
+
+I put masking tape over everything, to stop scratches. 
+
+Print out a template, or at least mark where you want to drill. Don't go too far up because of the length of the cable, and the fact that unless you want to stick these connectors on the front of the device, you'll need to stretch the cables from front to back as well. Removing the internal PCB antennas will make this super easy, but then you cannot easily swap back to them. You could also decide to go fully external and buy some rabbit ears antennas if you wanted? 
+
+Once you've marked your holes to drill, using the 2.5mm drill bit drill a pilot hole in the centre of your circles. 
+
+Swap to the 6.5mm drill bit and enlarge the hole. 
+
+Then you just need to lift off the original cables. Put a plastic probe or a small screwdriver under the tail of the connector and gently lift it up. 
+You can remove the entire PCB antenna assembly by removing the 4 retaining crosshead screws. 
+
+Attach the cables, put the SMA connectors through the holes, tighten up. 
