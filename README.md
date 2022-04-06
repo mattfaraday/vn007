@@ -3,9 +3,11 @@
 ## Disclaimer/Warning: 
 
 The stuff on this page can brick your modem if you don't follow it exactly. 
-You might even brick it all even if you do follow it perfectly. 
-But I am not responsible for what you do to your modem. 
-Have fun. 
+
+You might even brick it if you do follow it exactly. 
+
+I am not responsible for what you do to your modem. 
+
 
 ## Android app 
 [Unicom manager](/android)
