@@ -125,13 +125,13 @@ The PCB antennas functions are as follows:
 
 | PCB Antenna Number | Function | Antenna port on main board | 
 | ------------------ | -------- | -------------------------- |
-| 1 | ? | ANT 7 |
+| 1 | 5G? | ANT 7 |
 | 2 | 2.4GHz WiFi | 2.4G-2 | 
 | 3 | 5G  | ANT 1 | 
-| 4 | 5G & 5GHz WiFi | 5G-2 & ANT 3 & ANT 6 |
-| 5 | ? | ANT 5 | 
-| 6 | 2.4GHz WiFi & ??? | 2.4G-1 & ANT 2 | 
-| 7 | ??? | ANT 4 | 
+| 4 | 5G (Main?) & 5GHz WiFi | 5G-2 & ANT 3 & ANT 6 |
+| 5 | 5G (Div?) | ANT 5 | 
+| 6 | 2.4GHz WiFi & 4G (Main?) | 2.4G-1 & ANT 2 | 
+| 7 | 5G (Div?) | ANT 4 | 
 | 8 | 5GHz WiFi | 5G-1 | 
 
 Antenna (external) Hack: Use ANT1, ANT6, ANT2, ANT3. Leave all the others connected to PCB antennas. 
