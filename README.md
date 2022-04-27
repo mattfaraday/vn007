@@ -125,9 +125,9 @@ The PCB antennas functions are as follows:
 
 | PCB Antenna Number | Function | Antenna port on main board | 
 | ------------------ | -------- | -------------------------- |
-| 1 | 5G? | ANT 7 |
+| 1 | ? | ANT 7 |
 | 2 | 2.4GHz WiFi | 2.4G-2 | 
-| 3 | 5G  | ANT 1 | 
+| 3 | ?  | ANT 1 | 
 | 4 | 5G (Main?) & 5GHz WiFi | 5G-2 & ANT 3 & ANT 6 |
 | 5 | 5G (Div?) | ANT 5 | 
 | 6 | 2.4GHz WiFi & 4G (Main?) | 2.4G-1 & ANT 2 | 
